@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python -m ensurepip --upgrade)",
+      "Bash(python -m pip --version)",
+      "Bash(python -W error::SyntaxWarning -c ' *)",
+      "Bash(python -c ' *)",
+      "Bash(python -c \"import ast; ast.parse\\(open\\('demo.py', encoding='utf-8'\\).read\\(\\)\\); print\\('[OK] demo.py 语法正确'\\)\")"
+    ]
+  }
+}
